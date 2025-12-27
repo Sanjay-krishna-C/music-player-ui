@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music Player UI</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="player-container">
+  <!-- Album Art -->
+  <div class="album-art">
+    <img src="music.png" alt="Album Art">
+  </div>
+
+  <!-- Song Info -->
+  <div class="song-info">
+    <h2>Song Title</h2>
+    <p>Artist Name</p>
+  </div>
+
+  <!-- Progress Bar -->
+  <div class="progress-container">
+    <span class="current-time">0:00</span>
+    <input type="range" min="0" max="100" value="0" class="progress-bar">
+    <span class="duration">0:00</span>
+  </div>
+
+  <!-- Controls -->
+  <div class="controls">
+    <button class="btn prev">&#9664;&#9664;</button>
+    <button class="btn play">&#9654;</button>
+    <button class="btn next">&#9654;&#9654;</button>
+  </div>
+
+  <!-- Volume -->
+  <div class="volume-container">
+    <span>&#128266;</span>
+    <input type="range" min="0" max="100" value="70" class="volume-bar">
+  </div>
+</div>
+
+</body>
+</html>
